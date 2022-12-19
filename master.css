@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    background-color: #eee;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 8px;
+}
+form input, 
+form select {
+    width: 350px;
+    margin: 10px auto;
+    border-radius: 6px;
+}
+input[type="number"] {
+    padding: 10px 30px;
+    border: 1px solid #DDD;
+}
+input[type="text"] {
+    padding: 10px 30px;
+    border: 1px solid #DDD;
+}
+input[type="submit"] {
+    background-color: #00a2aa;
+    color: #FFF;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+select { 
+    padding: 10px 30px;
+}
+select option {
+    margin: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+.opt {
+    text-align: center;
+    padding: 15px;
+    background-color: #fc5537;
+    color: #FFF;
+    border-radius: 6px;
+    font-size: 18px;
+}
